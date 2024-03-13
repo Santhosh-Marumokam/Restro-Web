@@ -123,6 +123,6 @@ app.use((err, req, res, next) => {
     if (!err.message) err.message = 'Oh No, Something Went Wrong!'
     res.status(statusCode).render('error', { err })
 })
-app.listen(3000,()=>{
-    console.log("listening on port 3000");
+app.listen(5000,()=>{
+    console.log("listening on port 5000");
 })
